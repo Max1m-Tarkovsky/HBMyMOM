@@ -1,0 +1,85 @@
+.avatar1 {
+    width: 300px;
+    border-radius: 75px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+}
+
+.avatar2 {
+    width: 300px;
+    border-radius: 100px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+}
+
+.avatar3 {
+    width: 300px;
+    border-radius: 50px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+    padding-top: 30px;
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text h4 {
+    margin: 10px;
+}
+
+.info2 {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.info-text2 {
+    margin-left: 40px;
+}
+
+.info-text h3 {
+    margin: 10px;
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+@media (max-width: 700px) {
+    .info2 {
+        text-align: center;
+        display: block;
+    }
+}
+
+@media (max-width: 700px) {
+    .centr {
+        text-align: center;
+        display: block;
+    }
+}
+
+body {
+    background: cornsilk;
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "Academy Engraved LET", serif;
+}
+
+
+.centr {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
